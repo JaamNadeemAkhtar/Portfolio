@@ -339,7 +339,25 @@ nav.scrolled {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.skills-list li {
+  font-size: 0.85rem;
+  color: var(--color-on-surface-variant);
+  background: rgba(255, 255, 255, 0.05);
+  padding: 6px 14px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skills-list li:hover {
+  color: var(--color-primary);
+  background: rgba(186, 158, 255, 0.1);
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
 }
 
 footer {
@@ -402,6 +420,19 @@ footer {
 
 @media (min-width: 769px) {
   #about-grid {
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1.5fr 1fr;
   }
+}
+
+.social-link {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  transition: all 0.3s ease;
+}
+
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateX(5px);
+  color: var(--color-on-surface) !important;
 }

@@ -59,12 +59,13 @@
 
         <section id="about" class="section reveal" style="background: var(--color-surface-low);">
             <div class="container">
-                <div class="grid" style="align-items: center;" id="about-grid">
+                <div class="grid" style="align-items: center; gap: 64px;" id="about-grid">
                     <div>
                         <h2 style="font-size: 2.5rem; margin-bottom: 24px;">Driven by Logic,<br>Defined by <span
                                 class="gradient-text">Craft.</span></h2>
-                    </div>
-                    <div>
+                        <p style="color: var(--color-on-surface-variant); line-height: 1.8; margin-bottom: 32px; font-size: 1.1rem;">
+                            I am a dedicated BS Information Technology student at Superior University, where I've spent the last few years immersing myself in the world of software architecture and digital design. My approach combines technical rigor with creative problem-solving, aiming to build applications that feel as good as they look.
+                        </p>
                         <div style="display: flex; gap: 40px;">
                             <div>
                                 <div class="display-text" style="font-size: 2rem; color: var(--color-primary);">3+</div>
@@ -73,13 +74,25 @@
                                     Years Learning</div>
                             </div>
                             <div>
-                                <div class="display-text" style="font-size: 2rem; color: var(--color-primary);">15+
+                                <div class="display-text" style="font-size: 2rem; color: var(--color-primary);">20+
                                 </div>
                                 <div
                                     style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant);">
                                     Projects Built</div>
                             </div>
+                            <div>
+                                <div class="display-text" style="font-size: 2rem; color: var(--color-primary);">5+</div>
+                                <div
+                                    style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant);">
+                                    Certifications</div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="glass-card" style="padding: 32px; border-radius: 24px;">
+                        <h3 style="margin-bottom: 16px; color: var(--color-primary);">My Philosophy</h3>
+                        <p style="font-size: 0.95rem; color: var(--color-on-surface-variant); font-style: italic;">
+                            "Code is not just instructions for a machine, but a form of expression that should be clear, concise, and purposeful."
+                        </p>
                     </div>
                 </div>
             </div>
@@ -89,37 +102,52 @@
             <div class="container">
                 <h2 class="reveal" style="text-align: center; margin-bottom: 64px; font-size: 2.5rem;">Core Competencies
                 </h2>
-                <div class="grid">
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
                     <div class="glass-card project-card reveal">
                         <div class="skill-category">
-                            <h4>Web Development</h4>
+                            <div class="display-text" style="color: var(--color-primary); margin-bottom: 16px;">01.</div>
+                            <h4>Frontend Dev</h4>
                             <ul class="skills-list">
-                                <li>HTML5 / CSS3</li>
-                                <li>JavaScript (ES6+)</li>
-                                <li>React / Next.js</li>
-                                <li>Node.js / Express</li>
+                                <li>HTML5 / CSS3 / SCSS</li>
+                                <li>JavaScript (ES6+) / TypeScript</li>
+                                <li>React / Next.js / Vue</li>
+                                <li>Tailwind CSS / Bootstrap</li>
                             </ul>
                         </div>
                     </div>
                     <div class="glass-card project-card reveal">
                         <div class="skill-category">
-                            <h4>UI/UX Design</h4>
+                            <div class="display-text" style="color: var(--color-secondary); margin-bottom: 16px;">02.</div>
+                            <h4>Backend & Systems</h4>
                             <ul class="skills-list">
-                                <li>Figma Prototyping</li>
-                                <li>Design Systems</li>
-                                <li>Visual Identity</li>
-                                <li>Motion Design</li>
+                                <li>Node.js / Express.js</li>
+                                <li>Python / Django</li>
+                                <li>SQL (PostgreSQL / MySQL)</li>
+                                <li>RESTful API Design</li>
                             </ul>
                         </div>
                     </div>
                     <div class="glass-card project-card reveal">
                         <div class="skill-category">
-                            <h4>Programming</h4>
+                            <div class="display-text" style="color: var(--color-tertiary); margin-bottom: 16px;">03.</div>
+                            <h4>UI/UX & Design</h4>
                             <ul class="skills-list">
-                                <li>Python</li>
-                                <li>C++ / Java</li>
-                                <li>SQL Databases</li>
-                                <li>RESTful APIs</li>
+                                <li>Figma / Adobe XD</li>
+                                <li>Design Systems & Style Guides</li>
+                                <li>Prototyping & Wireframing</li>
+                                <li>Motion & Interaction Design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card reveal">
+                        <div class="skill-category">
+                            <div class="display-text" style="color: var(--color-primary); margin-bottom: 16px;">04.</div>
+                            <h4>Tools & Platforms</h4>
+                            <ul class="skills-list">
+                                <li>Git / GitHub / GitLab</li>
+                                <li>Docker / Basic CI-CD</li>
+                                <li>AWS / Firebase / Netlify</li>
+                                <li>Postman / VS Code</li>
                             </ul>
                         </div>
                     </div>
@@ -137,12 +165,11 @@
                 <div class="grid">
                     <div class="glass-card project-card reveal">
                         <span class="tag"
-                            style="margin-bottom: 16px; background: rgba(186, 158, 255, 0.1); color: var(--color-primary);">HTML
-                            / CSS / JS</span>
-                        <h3>Web-Project</h3>
+                            style="margin-bottom: 16px; background: rgba(186, 158, 255, 0.1); color: var(--color-primary);">FinTech
+                            / React</span>
+                        <h3>TripWallet Pro</h3>
                         <p style="color: var(--color-on-surface-variant); margin-bottom: 24px;">
-                            A comprehensive web application project focusing on responsive design and modern front-end
-                            technologies.
+                            Advanced travel expense manager with multi-currency support, PDF report generation, and real-time budget tracking.
                         </p>
                         <div style="display: flex; gap: 16px;">
                             <a href="https://tripwallets.netlify.app/" target="_blank"
@@ -166,12 +193,11 @@
                     </div>
                     <div class="glass-card project-card reveal">
                         <span class="tag"
-                            style="margin-bottom: 16px; background: rgba(140, 231, 255, 0.1); color: var(--color-tertiary);">JavaScript
+                            style="margin-bottom: 16px; background: rgba(140, 231, 255, 0.1); color: var(--color-tertiary);">E-Commerce
                             / UI</span>
-                        <h3>LooksWowBeauty</h3>
+                        <h3>LooksWow Beauty</h3>
                         <p style="color: var(--color-on-surface-variant); margin-bottom: 24px;">
-                            A sleek and dynamic beauty website interface showcasing elegant layouts and interactive user
-                            experiences.
+                            A premium beauty & cosmetic interface featuring high-end aesthetic, smooth scroll animations, and dynamic product filtering.
                         </p>
                         <div style="display: flex; gap: 16px;">
                             <a href="https://lookswow.netlify.app/" target="_blank"
@@ -195,12 +221,11 @@
                     </div>
                     <div class="glass-card project-card reveal">
                         <span class="tag"
-                            style="margin-bottom: 16px; background: rgba(227, 196, 255, 0.1); color: var(--color-secondary);">Game
-                            Dev</span>
-                        <h3>Snake Game</h3>
+                            style="margin-bottom: 16px; background: rgba(227, 196, 255, 0.1); color: var(--color-secondary);">Canvas
+                            / JS</span>
+                        <h3>Arcade Engine</h3>
                         <p style="color: var(--color-on-surface-variant); margin-bottom: 24px;">
-                            A classic browser-based Snake Game implemented from scratch using HTML5 Canvas and vanilla
-                            JavaScript logic.
+                            A custom lightweight game engine built on HTML5 Canvas, powering classics like the Snake Game with enhanced physics and scoring.
                         </p>
                         <div style="display: flex; gap: 16px;">
                             <a href="https://sngam.netlify.app/" target="_blank"
@@ -213,6 +238,34 @@
                                 </svg>
                             </a>
                             <a href="https://github.com/JaamNadeemAkhtar/Game" target="_blank"
+                                style="color: var(--color-primary); text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+                                Source Code <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                                    <polyline points="7 7 17 7 17 17"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="glass-card project-card reveal">
+                        <span class="tag"
+                            style="margin-bottom: 16px; background: rgba(140, 255, 186, 0.1); color: #8cffba;">Portfolio
+                            / GSAP</span>
+                        <h3>Nocturnal Architect</h3>
+                        <p style="color: var(--color-on-surface-variant); margin-bottom: 24px;">
+                            The current high-end editorial portfolio design, showcasing advanced CSS techniques, glassmorphism, and scroll-triggered animations.
+                        </p>
+                        <div style="display: flex; gap: 16px;">
+                            <a href="#" target="_blank"
+                                style="color: var(--color-tertiary); text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 8px;">
+                                Current View <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://github.com/JaamNadeemAkhtar/Portfolio" target="_blank"
                                 style="color: var(--color-primary); text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 8px;">
                                 Source Code <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2">
@@ -235,34 +288,45 @@
                     Currently accepting new projects and technical challenges. Drop a message to start the conversation.
                 </p>
                 <div class="glass-card reveal"
-                    style="display: inline-block; padding: 40px; text-align: left; width: 100%; max-width: 400px;">
-                    <div style="margin-bottom: 24px;">
-                        <div
-                            style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant); margin-bottom: 8px;">
-                            Email Me</div>
-                        <a href="nadeemakhtar7546@gmail.com" class="display-text"
-                            style="font-size: 1.5rem; color: var(--color-on-surface); text-decoration: none;">nadeemakhtar7546@gmail.com</a>
-                    </div>
-                    <div style="margin-bottom: 24px;">
-                        <div
-                            style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant); margin-bottom: 8px;">
-                            Social Links</div>
-                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
-                            <a href="https://linktr.ee/JaamNadeemAkhtar" target="_blank"
-                                style="color: var(--color-on-surface-variant); text-decoration: none;">Linktree</a>
-                            <a href="https://github.com/JaamNadeemAkhtar" target="_blank"
-                                style="color: var(--color-on-surface-variant); text-decoration: none;">GitHub</a>
-                            <a href="https://www.linkedin.com/in/nadeemakhtar11/" target="_blank"
-                                style="color: var(--color-on-surface-variant); text-decoration: none;">LinkedIn</a>
-                            <a href="https://www.instagram.com/JaamNadeemAkhtar" target="_blank"
-                                style="color: var(--color-on-surface-variant); text-decoration: none;">Instagram</a>
+                    style="display: inline-block; padding: 40px; text-align: left; width: 100%; max-width: 500px;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px;">
+                        <div>
+                            <div
+                                style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant); margin-bottom: 8px;">
+                                Email Me</div>
+                            <a href="mailto:nadeemakhtar7546@gmail.com"
+                                style="color: var(--color-on-surface); text-decoration: none; font-weight: 600;">nadeemakhtar7546@gmail.com</a>
+                        </div>
+                        <div>
+                            <div
+                                style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant); margin-bottom: 8px;">
+                                Location</div>
+                            <div style="font-weight: 600;">Lahore, Pakistan / Remote</div>
                         </div>
                     </div>
-                    <div>
+                    
+                    <div style="margin-bottom: 32px;">
                         <div
-                            style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant); margin-bottom: 8px;">
-                            Location</div>
-                        <div class="display-text" style="font-size: 1.25rem;">Global / Remote</div>
+                            style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-on-surface-variant); margin-bottom: 12px;">
+                            Social Connect</div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                            <a href="https://linktr.ee/JaamNadeemAkhtar" target="_blank" class="social-link"
+                                style="color: var(--color-on-surface-variant); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--color-primary);"></div> Linktree</a>
+                            <a href="https://github.com/JaamNadeemAkhtar" target="_blank" class="social-link"
+                                style="color: var(--color-on-surface-variant); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--color-secondary);"></div> GitHub</a>
+                            <a href="https://www.linkedin.com/in/nadeemakhtar11/" target="_blank" class="social-link"
+                                style="color: var(--color-on-surface-variant); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--color-tertiary);"></div> LinkedIn</a>
+                            <a href="https://www.instagram.com/JaamNadeemAkhtar" target="_blank" class="social-link"
+                                style="color: var(--color-on-surface-variant); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                                <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--color-primary);"></div> Instagram</a>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 16px;">
+                        <a href="mailto:nadeemakhtar7546@gmail.com" class="btn btn-primary" style="width: 100%; justify-content: center;">Start A Conversation</a>
                     </div>
                 </div>
             </div>
