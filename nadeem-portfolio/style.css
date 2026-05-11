@@ -316,7 +316,7 @@ nav.scrolled {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: var(--space-lg);
 }
 
@@ -360,12 +360,12 @@ footer {
 
 .hero-text {
   flex: 1;
-  min-width: 300px;
+  min-width: 250px;
 }
 
 .hero-image-container {
   flex: 1;
-  min-width: 300px;
+  min-width: 250px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -397,5 +397,11 @@ footer {
   }
   .hero-title {
     font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 769px) {
+  #about-grid {
+    grid-template-columns: 1fr 1.5fr;
   }
 }
